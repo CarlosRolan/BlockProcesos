@@ -1,0 +1,19 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/BlockProcesos/app/src/main/res/layout-v31/fragment_l.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/BlockProcesos/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/BlockProcesos/app/src/main/res/layout/fragment_l.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/BlockProcesos/app/src/main/res/layout/lista.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/BlockProcesos/app/src/main/res/menu/menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

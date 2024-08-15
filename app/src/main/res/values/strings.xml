@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlockProcesos</string>
+    <string name="aplicaciones">Aplicaciones</string>
+    <string name="tama_o">Tamaño</string>
+    <string name="tipos">TIPOS</string>
+    <string name="preference_file_key">Historial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

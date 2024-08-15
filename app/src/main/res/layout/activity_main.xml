@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnApps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:text="@string/aplicaciones"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listaApps"
+        style="@android:style/Widget.DeviceDefault.ExpandableListView"
+        android:layout_width="380dp"
+        android:layout_height="565dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/holo_green_light"
+        android:scrollIndicators="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApps" />
+
+    <TextView
+        android:id="@+id/txtEleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:foregroundTint="@color/white"
+        android:text="@string/tipos"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/btnApps"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTamanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"
+        android:foregroundTint="@color/white"
+        android:text="@string/tama_o"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/listaApps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEleccion"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnPids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/black"
+        android:text="PIDS"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintBottom_toTopOf="@+id/listaApps"
+        app:layout_constraintEnd_toStartOf="@+id/btnApps"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/black"
+        android:text="HISTORIAL"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/listaApps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApps" />
+
+    <FrameLayout
+        android:id="@+id/contendorlista"
+        android:layout_width="348dp"
+        android:layout_height="525dp"
+        app:layout_constraintBottom_toBottomOf="@+id/listaApps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/listaApps" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

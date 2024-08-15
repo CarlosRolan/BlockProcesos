@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sistema"
+        android:title="Sistema" />
+    <item
+        android:id="@+id/terceros"
+        android:title="Terceros" />
+    <item
+        android:id="@+id/vigilancia"
+        android:title="Vigilancia">
+        <menu>
+            <item
+                android:id="@+id/activar"
+                android:title="Activar" />
+            <item
+                android:id="@+id/desactivar"
+                android:title="Desactivar" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/procesoMain"
+        android:title="Proceso Main" />
+    <item
+        android:id="@+id/historial"
+        android:title="Historial" />
+    <item
+        android:id="@+id/proBloqueados"
+        android:title="Bloqueados" />
+
+    <item
+        android:id="@+id/musica"
+        android:title="Música">
+        <menu>
+            <item
+                android:id="@+id/on"
+                android:title="ON" />
+            <item
+                android:id="@+id/off"
+                android:title="OFF" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/hora"
+        android:title="Hora">
+        <menu>
+            <item
+                android:id="@+id/activarHora"
+                android:title="Activar" />
+            <item
+                android:id="@+id/desactivarHora"
+                android:title="Desactivar" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ajustes"
+        android:title="Ajustes Acceso" />
+    <item
+        android:id="@+id/salir"
+        android:title="Salir" />
+</menu>

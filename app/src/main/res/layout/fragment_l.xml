@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="427dp">
+
+        <EditText
+            android:id="@+id/textPaquete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:minHeight="48dp"
+            android:text="PACKAGE"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/textProceso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:minHeight="48dp"
+            android:text="PROCESO"
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPaquete"
+            app:layout_constraintVertical_bias="0.031"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="319dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="56dp"
+            android:background="@android:color/holo_green_light"
+            android:src="@android:drawable/ic_lock_idle_lock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="81dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="28dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="VOLVER"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.703"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Switch
+            android:id="@+id/swElector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginBottom="88dp"
+            android:minHeight="48dp"
+            android:text="VIGILAR  "
+            android:textColor="@android:color/holo_green_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="306dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="4dp"
+            android:text="D E T A L L E S"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
